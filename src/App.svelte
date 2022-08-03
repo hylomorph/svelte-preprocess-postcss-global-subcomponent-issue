@@ -1,14 +1,13 @@
 <script>
-    import B from "./B.svelte"
-    // import './app.css'
+    import B from "./B.svelte";
 </script>
 
-<p class="bg-blue-500">this works</p>
+<p class="bg-blue-500">Changing classes here works fine.</p>
 
-<B/>
+<B />
 
-<style lang="postcss" global >
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+<style lang="postcss" global>
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
 </style>
