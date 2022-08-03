@@ -17,8 +17,8 @@
 <!-- <style global src="./app.css"></style> -->
 
 <!-- this doesn't work -->
-<style global lang="postcss">
- @tailwind base;
- @tailwind components;
- @tailwind utilities;
-</style>
+<!-- <style global lang="postcss">
+     @tailwind base;
+     @tailwind components;
+     @tailwind utilities;
+     </style> -->
