@@ -1,10 +1,13 @@
 import App from "./App.svelte";
+// import './app.css'
 
-const target = document.body;
-const root = target.attachShadow({ mode: "open" });
+const root = document.body.attachShadow({ mode: "open" });
+
+const target_that_works = document.getElementById("app");
 
 const app = new App({
-  target: root,
+  // target: target_that_works,
+  target: root
 });
 
 export default app;
